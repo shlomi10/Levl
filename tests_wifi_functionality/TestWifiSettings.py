@@ -14,8 +14,6 @@ from tests_wifi_functionality.Constants import WIFI_NETWORK_NAME, WIFI_PASSWORD
 @pytest.mark.flaky(reruns=1)
 def test_android_wifi_connection_function(initialize):
     with allure.step("start test connect to WIFI network"):
-        wifi_network_name = "Shlomi-mesh"
-        wifi_password = "0585666667ABC"
         driver, wifi_settings_screen = initialize
         wifi_settings_screen.go_to_wifi_screen_settings()
         wifi_settings_screen.enable_wifi()
