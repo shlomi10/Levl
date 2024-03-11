@@ -1,0 +1,5 @@
+pytest==7.4.3
+retry == 0.9.2
+allure-pytest == 2.13.2
+Appium-Python-Client~=3.2.1
+selenium~=4.16.0
