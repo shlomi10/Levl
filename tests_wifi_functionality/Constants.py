@@ -1,1 +1,3 @@
 APPIUM_HOST = "http://localhost:4723"
+WIFI_NETWORK_NAME = "Shlomi-mesh"
+WIFI_PASSWORD = "0585666667ABC"
