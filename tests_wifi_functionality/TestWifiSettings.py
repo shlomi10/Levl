@@ -1,6 +1,8 @@
 import allure
 import pytest
 
+from tests_wifi_functionality.Constants import WIFI_NETWORK_NAME, WIFI_PASSWORD
+
 
 @allure.description("validate if calculator add option is working")
 @allure.title("validate add function")
