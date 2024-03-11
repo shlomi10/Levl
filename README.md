@@ -25,6 +25,8 @@ pip install selenium
 pip install -r requirements.txt 
 ```
 
+* you still will need to install Appium, UiAutomator2, environment variables 
+
 ## Running Tests with report
 
 ```
